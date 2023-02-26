@@ -15,9 +15,9 @@ window.onscroll = () => {
 }
  
 // Dark Mode
-let darkmodeNew = document.querySelector('#darkmode');
+let darkmode = document.querySelector('#darkmode');
  
-darkmodeNew.onclick = () => {
+darkmode.onclick = () => {
     if(darkmode.classList.contains('bx-moon')){
         darkmode.classList.replace('bx-moon','bx-sun');
         document.body.classList.add('active');
